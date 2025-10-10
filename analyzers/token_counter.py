@@ -1,8 +1,11 @@
 import nltk
+
 nltk.download('punkt', quiet=True)
-from nltk.tokenize import word_tokenize
-from collections import Counter
 import math
+from collections import Counter
+
+from nltk.tokenize import word_tokenize
+
 
 def analyze_tokens(text):
     words = word_tokenize(text)

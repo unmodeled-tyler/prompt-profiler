@@ -1,5 +1,6 @@
 import os
-from setuptools import setup, find_packages
+
+from setuptools import find_packages, setup
 
 if os.path.exists("requirements.txt"):
     with open("requirements.txt", encoding="utf-8") as f:
